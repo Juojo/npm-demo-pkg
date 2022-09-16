@@ -1,6 +1,6 @@
 {
   "name": "@juojo/npm-demo-pkg",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This is a demo package only for testing purposes.",
   "main": "main.js",
   "scripts": {
