@@ -1,5 +1,5 @@
 {
-  "name": "npm-demo-pkg",
+  "name": "@juojo/npm-demo-pkg",
   "version": "1.0.0",
   "description": "This is a demo package only for testing purposes.",
   "main": "main.js",
@@ -10,5 +10,8 @@
     "demo"
   ],
   "author": "Juojo",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "npm-demo-pkg": "^2.0.0"
+  }
 }
