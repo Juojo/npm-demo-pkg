@@ -1,0 +1,14 @@
+{
+  "name": "npm-demo-pkg",
+  "version": "1.0.0",
+  "description": "This is a demo package only for testing purposes.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "demo"
+  ],
+  "author": "Juojo",
+  "license": "ISC"
+}
