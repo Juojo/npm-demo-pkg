@@ -1,10 +1,13 @@
 {
   "name": "@juojo/npm-demo-pkg",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "This is a demo package only for testing purposes.",
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "saludo": "bin/saludo.js"
   },
   "keywords": [
     "demo"
@@ -12,7 +15,8 @@
   "author": "Juojo",
   "license": "ISC",
   "dependencies": {
-    "npm-demo-pkg": "^2.0.0"
+    "npm-demo-pkg": "^2.0.0",
+    "yargs": "^17.5.1"
   },
   "repository": {
     "type": "git",
